@@ -14,6 +14,17 @@ Remember our Monument magazine website from the first week? Today we're going to
 * Create reusable, robust codebase that will serve as a boilerplate for other work
 * Continually grow the *Monument* brand until you are sick of light-blue branding styles
 
+## Set up
+While inside this this directory:
+```bash
+npx create-react-app monument
+```
+Once that has completed..
+```bash
+cd monument
+rm -rf .git
+```
+this repo already has a .git so we do not need the .get inside of the monument folder. Continue business as ususal from here!
 
 ## Refactor!
 
