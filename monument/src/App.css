@@ -151,6 +151,8 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+/* 
 nav {
 	position: fixed;
 	top: 0;
@@ -173,7 +175,8 @@ nav a {
 	display: inline-block;
 	border-bottom: none;
 	text-transform: uppercase;
-}
+} */
+
 
 .hamburger {
 	display: none;
@@ -335,9 +338,13 @@ footer .wrap {
 Media Queries
 ------------------------------------------- */
 @media only screen and (max-width: 790px) {
+
+/* 	
 	nav a {
 		padding: .2rem 2rem;
-	}
+	} */
+
+
 	.col-third {
 		width: 100%;
 	}
@@ -368,13 +375,15 @@ Media Queries
 		font-size: 14px;
 	}
 
+/* 	
 	nav ul {
 		display: none;
 	}
 
 	nav {
 		background-color: transparent;
-	}
+	} */
+
 
 	.hamburger {
 		display: block;
